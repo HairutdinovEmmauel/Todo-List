@@ -1,0 +1,26 @@
+.search-add-todo-list {
+    display: flex;
+    margin: 5px 5px 5px 0;
+}
+
+.search-add-todo-list input {
+    width: 340px;
+    height: 35px;
+}
+
+.search-add-todo-list div {
+    background: rgb(37, 165, 204);
+    margin-left: 5px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    width: 50px
+}
+
+
+
+
+
+
