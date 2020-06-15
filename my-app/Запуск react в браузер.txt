@@ -1,5 +1,0 @@
-C:\Users\hairu>d: // click Enter
-
-D:\>cd my-app // click Enter
-
-D:\my-app>npm start // click Enter
