@@ -16,7 +16,7 @@ export default class SearchPanel extends Component {
     render() {
 
         return (
-            <form >
+            <form>
                 <input id="searchValue" 
                     className="search form-control" 
                     placeholder="search" 

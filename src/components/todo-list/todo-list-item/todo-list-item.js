@@ -5,12 +5,12 @@ export default class TodoListItem extends Component {
     
     render() {
         const { 
-            label,
             onDeleted, 
             onToggleDone, 
-            onToggleImportant, 
+            onToggleImportant,
+            label,
             done, 
-            important  
+            important 
         } = this.props;
 
         let classNames = "todo-list-item";
@@ -30,7 +30,7 @@ export default class TodoListItem extends Component {
                     onClick={ onToggleDone }>
                     { label }
                 </span>
-                <div className={ classNames } >
+                <div>
                     <button type="button" 
                             className="btn btn-outline-danger btn-sm" 
                             onClick={onDeleted} >

@@ -36,14 +36,14 @@ export default class App extends Component {
 
         const oldItem = arr[idx];
 
-        const newArr = {
+        const newObj = {
             ... oldItem,
             [properName]: !oldItem[properName]
         };
 
         return [
             ... arr.slice(0, idx),
-            newArr,
+            newObj,
             ... arr.slice(idx + 1)
         ];
 
